@@ -24,3 +24,11 @@
     /* Moves the left edge of the element to the horizontal center */
     transform: translate(-50%);
 }
+
+.texto_menu {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
