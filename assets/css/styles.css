@@ -33,6 +33,7 @@
     font-size: x-large;
 }
 
-.pt-2 {
-    padding-top: ($spacer * .5) !important;
+.my-custom-padding-top {
+    padding-top: 80px;
+    /* O usa 2.5rem, 3em, etc. */
 }
