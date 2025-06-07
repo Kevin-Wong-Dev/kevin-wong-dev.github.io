@@ -32,3 +32,7 @@
     font-style: normal;
     font-size: x-large;
 }
+
+.pt-2 {
+    padding-top: ($spacer * .5) !important;
+}
