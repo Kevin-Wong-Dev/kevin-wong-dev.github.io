@@ -43,3 +43,59 @@
 .texto-carta {
     font-size: 14px;
 }
+
+/* assets/css/styles.css o custom.css */
+
+.card-img-overlay-gradient {
+    position: absolute;
+    /* Permite posicionarlo dentro del overlay */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Cubre todo el overlay */
+
+    /* El degradado va de transparente (rgba(0,0,0,0)) a negro (rgba(0,0,0,0.7)) */
+    /* La dirección es 'to top' para que lo oscuro quede abajo y lo transparente arriba */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+
+    /* Asegura que el degradado esté debajo del texto */
+    z-index: 1;
+}
+
+/* Ajusta el z-index de tu texto para que quede por encima del degradado */
+.card-img-overlay h5,
+.card-img-overlay p {
+    /* Si tienes párrafos también */
+    position: relative;
+    /* Necesario para que z-index funcione en elementos no posicionados */
+    z-index: 2;
+    /* Mayor que el z-index del degradado */
+}
+
+/* Si tu texto ya estaba en la parte inferior, puedes hacer ajustes en .card-img-overlay */
+/* para que el degradado no empuje el contenido. */
+/* Si ya tienes d-flex y justify-content-end en .card-img-overlay, debería funcionar bien. */
+.card-img-overlay.text-end.d-flex.flex-column.justify-content-end {
+    /* Asegúrate de que el texto esté abajo. La clase text-end aquí podría no ser necesaria si ya usas flexbox */
+}
+
+/* Ajusta el margen del h5 para que no se pegue al borde inferior si el degradado es muy denso */
+.card-title {
+    margin-bottom: 0.5rem;
+    /* Ajusta este valor si el texto queda muy pegado al fondo */
+}
+
+/* En tu archivo assets/css/styles.css o custom.css */
+
+.card {
+    border: none !important;
+    /* Elimina el borde */
+    box-shadow: none !important;
+    /* También puedes quitar cualquier sombra si la hubiera */
+}
+
+/* Si solo quieres quitar el borde inferior del card-img-overlay por ejemplo */
+.card-img-overlay {
+    border-bottom: none !important;
+}
