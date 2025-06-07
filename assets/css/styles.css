@@ -3,7 +3,7 @@
 }
 
 .logo {
-    width: 50%;
+    width: 30%;
     /* Limits the image width to 30% of its container */
     position: absolute;
     /* Positions the element relative to the viewport */
@@ -15,7 +15,7 @@
 }
 
 .promo {
-    width: 50%;
+    width: 70%;
     position: absolute;
     /* Positions the element relative to the viewport */
     top: 20%;
