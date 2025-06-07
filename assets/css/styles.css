@@ -7,6 +7,7 @@
     /* Limits the image width to 30% of its container */
     position: absolute;
     /* Positions the element relative to the viewport */
+    top: 2%;
     /* Moves the top edge of the element to the vertical center */
     left: 50%;
     /* Moves the left edge of the element to the horizontal center */
