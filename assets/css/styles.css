@@ -37,6 +37,7 @@
     padding-top: 40px;
     transform: translate(50%);
     width: 50%;
+    max-width: 18rem
 }
 
 .texto-carta {
