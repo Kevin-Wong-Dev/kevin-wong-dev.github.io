@@ -1,0 +1,26 @@
+.fondo {
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+    /* Limits the image width to 30% of its container */
+    position: absolute;
+    /* Positions the element relative to the viewport */
+    top: 10%;
+    /* Moves the top edge of the element to the vertical center */
+    left: 50%;
+    /* Moves the left edge of the element to the horizontal center */
+    transform: translate(-50%);
+}
+
+.promo {
+    width: 50%;
+    position: absolute;
+    /* Positions the element relative to the viewport */
+    top: 30%;
+    /* Moves the top edge of the element to the vertical center */
+    left: 50%;
+    /* Moves the left edge of the element to the horizontal center */
+    transform: translate(-50%);
+}
