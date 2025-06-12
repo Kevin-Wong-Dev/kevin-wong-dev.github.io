@@ -154,3 +154,11 @@
     font-style: normal;
     font-size: x-large;
 }
+
+.carta-letra-titulo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+}
