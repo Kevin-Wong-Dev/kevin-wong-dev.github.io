@@ -197,6 +197,16 @@
 
 }
 
+.menu-letra {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+
+    margin: 0;
+}
+
 .menu-mg-y {
     margin-top: -70px;
 }
