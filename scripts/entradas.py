@@ -20,8 +20,8 @@ for x in range(0, hojas):
 
         platillo_actual = row["Platillo"]
         precio_actual = row["Precio"]
-        articulos += f""" <div class="row">
-                <div class="col-9 carta-letra">{platillo_actual}</div>
+        articulos += f"""<meta charset="UTF-8"> <div class="row">
+                <div class="col-9 carta-letra">☆ {platillo_actual}</div>
                 <div class="col-3 text-end carta-letra">{precio_actual}.00</div>
             </div>"""
 
@@ -50,7 +50,7 @@ for x in range(0, hojas):
     </div>
    
         <div class="container-md">
-            <h1>{hojasNombre[x]}</h1>
+            <h1 class="carta-letra-titulo">{hojasNombre[x]}</h1>
             <hr>
             {articulos}
 
@@ -62,5 +62,5 @@ for x in range(0, hojas):
 </html>
             """
     # crear documento
-    with open(f"seccionesGen//{hojasNombre[x]}.html", "w") as f:
+    with open(f"seccionesGen//{hojasNombre[x]}.html", "w", encoding="utf-8") as f:
         f.write(html_str)
