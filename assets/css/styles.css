@@ -1,3 +1,6 @@
+@import "bootstrap/scss/utilities";
+
+
 .fondo {
     width: 100%;
 }
@@ -183,4 +186,13 @@
     font-size: 15px;
     color: white;
     margin: 0;
+}
+
+.footer-pd-y {
+    padding: 10px 0px;
+}
+
+.btn-mg-y {
+    margin: 10px 0px;
+
 }
