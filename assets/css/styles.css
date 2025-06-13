@@ -174,3 +174,13 @@
 .bg-footer {
     background-color: #036BC0;
 }
+
+.redes-letra {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+}
