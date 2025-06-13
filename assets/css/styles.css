@@ -37,11 +37,11 @@
     padding-top: 40px;
     transform: translate(50%);
     width: 50%;
-    max-width: 7rem
+    max-width: 18rem
 }
 
 .texto-carta {
-    font-size: 14px;
+    font-size: 7px;
 }
 
 /* assets/css/styles.css o custom.css */
