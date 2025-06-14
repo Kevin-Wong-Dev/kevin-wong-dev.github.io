@@ -20,7 +20,7 @@ for x in range(0, hojas):
 
         platillo_actual = row["Platillo"]
         precio_actual = row["Precio"]
-        articulos += f"""<meta charset="UTF-8"> <div class="row">
+        articulos += f""" <div class="row">
                 <div class="col-9 carta-letra">☆ {platillo_actual}</div>
                 <div class="col-3 text-end carta-letra">{precio_actual}.00</div>
             </div>"""
