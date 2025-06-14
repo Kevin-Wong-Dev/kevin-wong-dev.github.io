@@ -133,7 +133,9 @@
     border-radius: inherit;
     /* O el mismo valor que uses en la carta */
     object-fit: cover;
-    height: 100%;
+    width: 100%;
+    /* Ensures the image takes the full width of its container */
+    height: 200px;
     /* Si tu carta tiene una altura definida y quieres que la imagen la llene */
 }
 
