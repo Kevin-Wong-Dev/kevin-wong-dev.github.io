@@ -211,3 +211,11 @@
 .mg-y {
     margin-bottom: 20px;
 }
+
+.descripcion {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+}
