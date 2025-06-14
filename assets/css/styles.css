@@ -135,7 +135,7 @@
     object-fit: cover;
     width: 100%;
     /* Ensures the image takes the full width of its container */
-    height: 200px;
+    height: 150px;
     /* Si tu carta tiene una altura definida y quieres que la imagen la llene */
 }
 
