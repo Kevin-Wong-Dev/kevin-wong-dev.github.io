@@ -14,16 +14,6 @@
     transform: translate(-50%);
 }
 
-.promo {
-    width: 60%;
-    position: absolute;
-    /* Positions the element relative to the viewport */
-    top: 16%;
-    /* Moves the top edge of the element to the vertical center */
-    left: 50%;
-    /* Moves the left edge of the element to the horizontal center */
-    transform: translate(-50%);
-}
 
 .texto_menu {
     font-family: "Inter", sans-serif;
@@ -155,6 +145,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: x-large;
+    font-size: 16px;
 }
 
 .carta-letra-titulo {
