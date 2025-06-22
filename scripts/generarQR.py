@@ -1,7 +1,7 @@
 import qrcode
 
 # Datos que deseas codificar en el QR
-data = "https://menulasglorias.netlify.app/"
+data = "https://lasglorias.github.io/"
 
 # Crear el objeto QR
 qr = qrcode.QRCode(
