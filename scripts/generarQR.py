@@ -1,7 +1,7 @@
 import qrcode
 
 # Datos que deseas codificar en el QR
-data = "https://lasglorias.github.io/"
+data = "https://lasglorias.github.io./"
 
 # Crear el objeto QR
 qr = qrcode.QRCode(
